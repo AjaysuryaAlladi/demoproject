@@ -10,7 +10,7 @@ on:
 jobs:
   Logintodockerhub-Dev:
     runs-on: ubuntu-latest
-    environment: Dev
+    environment: dev
     steps:
       - uses: actions/checkout@v3
       - name: docker login
